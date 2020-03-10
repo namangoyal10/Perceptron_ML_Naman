@@ -1,0 +1,13 @@
+after installing python
+pip install jupyter	
+IT IS A python package
+pip install jupyterthemes
+
+cmd--- python and start typing its  command
+cntr+z to exit
+
+
+j notebook
+cells in which we write code  
+
+jupyter-notebook

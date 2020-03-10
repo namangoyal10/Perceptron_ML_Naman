@@ -1,0 +1,109 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Capital of India is Delhi\n",
+      "Capital of India is Delhi\n",
+      "Capital of India is Delhi \n",
+      " Capital of India is Delhi\n",
+      "Capital of India is Delhi \n",
+      "Capital of India is Delhi\n"
+     ]
+    }
+   ],
+   "source": [
+    "#this is foramtting in 2 ways\n",
+    "my_string=\"Capital of %s is %s\" % (\"India\",\"Delhi\")\n",
+    "my_string1=\"Capital of {} is {}\" .format(\"India\",\"Delhi\")\n",
+    "\n",
+    "print(my_string)\n",
+    "print(my_string1)\n",
+    "\n",
+    "print(my_string,\"\\n\",my_string1)  ##here a space is obtained after a new line\n",
+    "print(my_string,\"\\n\"+my_string1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello...world\n"
+     ]
+    }
+   ],
+   "source": [
+    "## this is used to tell how to end a string\n",
+    "print(\"hello\" ,end=\"...\")\n",
+    "print(\"world\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "A\n",
+      "B\n",
+      "ABC\n",
+      "a\tb\tabc\n",
+      "ababc\n"
+     ]
+    }
+   ],
+   "source": [
+    "## this is used to tell how to seperate different strings\n",
+    "\n",
+    "print(\"A\",\"B\",\"ABC\" ,sep=\"\\n\")\n",
+    "a=\"a\"\n",
+    "b=\"b\"\n",
+    "c=\"abc\"\n",
+    "print(a,b,c ,  sep=\"\\t\")\n",
+    "print(a+b+c ,  sep=\"\\n\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

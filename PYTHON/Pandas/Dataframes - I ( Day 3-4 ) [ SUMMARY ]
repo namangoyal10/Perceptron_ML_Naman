@@ -1,0 +1,30 @@
+EXTRACTING COLUMNS :(2 Ways =  . AND [ ] )  : SINGLE COLUMN AS A SERIES ,MULTIPLE COLUMN AS A DATAFRAME ,  SINGLE COLUMN AS A DATAFRAME
+ADDING COLUMN TO DF :(2 Ways= [] AND .insert() ) : insert parameters - pos , column name , value, allow_duplicates
+sort_values ,sort_index ,rank (IMP )
+dropna fillna
+maths ,astype, value_counts +Basics
+
+------------------------------------------------------------------------------------------------------------------------------------------
+- sort_values and index
+
+* parameters of sort values = column name/s , inplace , na_position , ascending
+
+1. axis is never used in any of them. Forget about it . Only used in dropna and fillna
+
+2. sorting operations should always be performed on the original dataframe read from the csv file . 
+( Jo concept humne padha tha ki hum agar ek dataframe ke kuch part ko lenge aur usme changes karenge to wo original dataframe mein bhi change ho jayega  . WO KAHI KAAM NAHI KARTA IT IS WRONG CONCEPT
+Also for ex , agar hum dataframe ke 2 column ko ek variable mein store kare (say df= nba [name ,  salary] ) isme hum changes nahi karte . Against the rules . We can only use it to acces the values )
+
+* rank ko access karna hai to usko aise bolenge  
+nba[Salary].rank()
+nba ke salary ki rank nikaal de 
+
+------------------------------------------------------------------------------------------------------------------------------------------
+-dropna
+
+* parameter =  axis = 0/1 or "rows"/"columns" , how="any" or "all" , subset (if needed) , inplace
+
+------------------------------------------------------------------------------------------------------------------------------------------
+ASTYPE = all values should be full
+
+value_counts returns the frequency of the particular columns in consideration
