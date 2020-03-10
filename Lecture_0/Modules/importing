@@ -1,0 +1,8 @@
+def my_func1(s):
+    print("Name : "+s)
+    return 10
+
+def my_func2(n):
+    print(n**2)
+    return n**3
+
