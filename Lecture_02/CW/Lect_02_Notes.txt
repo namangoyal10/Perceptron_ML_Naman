@@ -1,0 +1,9 @@
+why do we use numpy instead of list
+
+1. it is faster : in a list every objet is stored as an object individually | | | | |
+  instead in a numpy only one object is created that is an array and data is stored in that array elementwise
+  
+2. 
+
+3. np.linspace
+4. np.diagonal
